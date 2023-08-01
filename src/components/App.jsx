@@ -38,6 +38,7 @@ class App extends Component {
       <>
         <Section title="Please leave feedback">
           <FeedbackOptions
+            className={css.feedbackOptions}
             options={Object.keys(this.state)}
             onLeaveFeedback={this.onLeaveFeedback}
           />
